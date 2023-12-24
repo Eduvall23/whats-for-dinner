@@ -26,7 +26,7 @@ h1 {
   margin-right: -10px;
   text-indent: 20px;
 }
-button {
+.add-recipe button {
   top: 1.8%;
   left: 87%;
   position: absolute;
@@ -84,4 +84,33 @@ input[type="submit" i] {
 }
 .cooking-pot {
   width: 125px;
+}
+.hidden {
+  display: none;
+}
+.chosen-meal button {
+  background-color: #95a5a6;
+  color: white;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 90;
+  height: 40;
+  position: absolute;
+  top: 58%;
+  left: 82%;
+}
+.chosen-meal h2 {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.chosen-meal h3 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  margin-top: -12px;
 }
