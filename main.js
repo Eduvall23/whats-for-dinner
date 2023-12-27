@@ -7,7 +7,7 @@ var cookingPot = document.querySelector(".cooking-pot");
 var displayedFood = document.querySelector(".chosen-meal");
 //Arrays
 var meals = {
-  sides: ["Dumplings", "Fries", "Brussel sprouts", "asparagus"],
+  sides: ["Dumplings", "Fries", "Brussel sprouts", "Asparagus"],
   mainDish: [
     "Sushi",
     "Spagetti",
@@ -22,13 +22,22 @@ var meals = {
 letsCookButton.addEventListener("click", function (event) {
   event.preventDefault();
   for (var i = 0, length = radios.length; i < length; i++) {
+    
     if (radios[i].checked) {
-      var index = randomNumber(meals[radios[i].value].length);
-      outPutElement.innerHTML = `${meals[radios[i].value][index]}!`;
-      console.log(index);
-      console.log(meals[radios[i].value]);
+      if (radios[i].value == "entireMeal") {
+        var mainDish = meals.mainDish[randomNumber(meals.mainDish.length)];
+        var side = meals.sides[randomNumber(meals.sides.length)];
+        var dessert = meals.dessert[randomNumber(meals.dessert.length)];
+        outPutElement.innerHTML = `${mainDish} with a side of ${side} and ${dessert} for dessert!`;
+        outPutElement.style.fontSize = "30px";
+      } else {
+        var index = randomNumber(meals[radios[i].value].length);
+        outPutElement.innerHTML = `${meals[radios[i].value][index]}!`;
+        outPutElement.style.fontSize = "40px";
+      }
       cookingPot.classList.add("hidden");
       displayedFood.classList.remove("hidden");
+
       break;
     }
   }
