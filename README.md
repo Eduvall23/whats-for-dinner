@@ -38,7 +38,7 @@ ______________________________________________________
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
-
+![](https://github.com/Eduvall23/whats-for-dinner/blob/main/assets/animated%202.GIF)
 ### Context:
 - This took me a little under 4 days to complete
 - I am 3 weeks into the turing front end program while making this 
