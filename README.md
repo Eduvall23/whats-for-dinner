@@ -30,22 +30,31 @@ ______________________________________________________
 # What's for Dinner? 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+- I built a working website that is able to give you a random meal that you should make!
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+- clone this repository down to your machine
+- open the index.hmtl file
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+- This took me a little under 4 days to complete
+- I am 3 weeks into the turing front end program while making this 
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+- [Ethan D.](https://github.com/Eduvall23)
 
 ### Learning Goals:
 [//]: <> (What were the learning goals of this project? What tech did you work with?)
+- Gain experience building an application that utilizes HTML, CSS and JavaScript
+- Write HTML and CSS to match a provided comp
+- Understand how to listen to and respond to user events
+- Individualize your programming skill set
 
 ### Wins + Challenges:
 [//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+- Some challenges I had was trying to style my header along with all the other pieces and I overcame that by deepenping my understanding of css and html 
+- A win i had was breezing through all of the javascript causing me to have more time to refine my css skills
+- Another win was gitting my flexvox styling to look almost exactly like the example website!
